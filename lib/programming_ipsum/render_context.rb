@@ -4,10 +4,9 @@ require_relative 'inflector'
 module ProgrammingIpsum
   class RenderContext < BasicObject
     include Grammar
-    attr_accessor :phrases, :context
+    attr_accessor :context
 
-    def initialize(phrases, context)
-      @phrases = phrases
+    def initialize(context)
       @context = context
       initialize_grammar
     end

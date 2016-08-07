@@ -5,7 +5,7 @@ module ProgrammingIpsum
   class Base
     def initialize(phrases, context)
       @phrases = phrases
-      @render_context = RenderContext.new(phrases, context)
+      @render_context = RenderContext.new(context)
     end
 
     # Render a sequence of phrases for this ipsum
