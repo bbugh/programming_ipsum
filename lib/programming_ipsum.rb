@@ -1,5 +1,2 @@
 require "programming_ipsum/version"
-
-module ProgrammingIpsum
-  # Your code goes here...
-end
+require "programming_ipsum/advice_ipsum"
